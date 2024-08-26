@@ -15,49 +15,97 @@
     font-family: var(--font-stack);
 }
 
+/* General styling */
 header {
-    background-color: var(--primary-color);
-    font-size: var(--font-size);
-    color: var(--secondary-color);
-    padding: 1rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-}
-
-#logo {
-    width: var(--logo-width);
-}
-
-#navbar {
-    display: flex;
-    justify-content: center;
-    width: var(--navbar-width);
-}
-
-#navbar a {
-    text-decoration: none;
-    color: var(--secondary-color);
-    margin: 1rem;
-    padding: 1rem;
-}
-
-#navbar a:hover {
-    color: #e79be5;
-}
-
-.contact-methods a{
-    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
     color: white;
 }
 
-.contact-methods a:hover {
-    color: #e79be5;
+.logo img {
+    width: 120px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.contact-methods {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-methods a {
+    color: white;
+}
+
+/* Mobile responsive styles */
+.menu-toggle {
+    display: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+/* Sidebar styles */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 36px;
+}
+
+/* Hide sidebar close button in larger screens */
+@media (min-width: 769px) {
+    .sidebar {
+        display: none;
+    }
 }
 
 .container {
