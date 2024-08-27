@@ -140,9 +140,9 @@ nav a {
 }
 
 #services {
-    position: relative; 
-    padding: 3rem;
-    text-align: center;
+    position: relative; /* Necesario para posicionar la pseudo-clase correctamente */
+    padding: 60px 0; /* Ajusta el espacio dentro de la sección */
+    color: #fff; /* Cambia el color del texto para que contraste con el fondo */
 }
 
 #services::before {
@@ -152,29 +152,69 @@ nav a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./assets/Foto/service4.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    opacity: 0.5;
-    z-index: -1; 
+    background-image: url('./assets/Foto/service4.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Hace que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    opacity: 0.5; /* Ajusta la opacidad según sea necesario */
+    z-index: -1; /* Coloca la pseudo-clase detrás del contenido */
 }
 
-.service-card {
-    align-items: center;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 1;
-    background-color: var(--primary-color);
-    border-radius: 5px;
+#services .card-img-top {
+    object-fit: cover;
+    height: 500px; /* Ajusta según sea necesario */
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #services .card-img-top {
+        height: 300px; /* Ajusta según sea necesario */
+    }
+
+}
+
+#services .card {
+    border: none; /* Opcional: ajustar el estilo de las tarjetas */
+}
+
+#services .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#services .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#services .card-text {
+    text-align: center;
+}
+
+#services .btn {
+    align-self: center;
+}
+
+.btn-primary {
+    background-color: var(--primary-color); /* Usa la variable de color primario */
+    border-color: var(--primary-color); /* Usa la variable de color primario */
+}
+
+.btn-primary:hover {
+    background-color: #c77495; /* Color primario más oscuro para el hover */
+    border-color: #c77495; /* Color del borde más oscuro para el hover */
+}
+
+.btn-cont {
     padding: 1rem;
 }
 
-.service-img {
-    width: 100%;
-    max-height: 500px;
-    object-fit: cover;
+.btn {
+    background-color: var(--primary-color);
 }
+
 
 .link {
     text-decoration: none;

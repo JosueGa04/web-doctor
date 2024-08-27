@@ -108,85 +108,82 @@ nav a {
     }
 }
 
-/* Container css*/
-
-h1 {
+.heading {
     text-align: center;
-    padding: 20px;
+    margin-top: 25px;
 }
 
-.container {
+.heading h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.heading p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.about-me {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    width: 85%;
+    margin: auto;
 }
 
-.sidebar-el {
-    flex: 1;
-    max-width: 300px;
-    padding: 20px;
-    border-right: 2px solid #ddd;
+.about-me img {
+    flex: 0 50%;
+    max-width: 40%;
+    height: auto;
 }
 
-.sidebar-el button {
-    display: block;
-    width: 100%;
-    margin: 5px 0;
-    padding: 10px;
-    background-color: var(--primary-color);
+.content {
+    padding: 35px;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin: 15px 0px;
+}
+
+content p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+.read-more-btn {
+    display: inline-block;
     color: #fff;
+    background-color: var(--primary-color);
     border: none;
-    cursor: pointer;
-    text-align: left;
     border-radius: 5px;
-    font-size: 16px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s ease;
 }
 
-.sidebar-el button:hover {
+.read-more-btn:hover {
     background-color: #0056b3;
 }
 
-.treatment-info {
-    flex: 3;
-    padding: 20px;
-}
-
-.treatment-info img {
-    max-width: 100%;
-    margin-bottom: 20px;
-}
-
 @media (max-width: 768px) {
-    .container {
+    .about-me {
         flex-direction: column;
     }
 
-    .sidebar-el {
+    .about-me img {
+        flex: 0 100%;
         max-width: 100%;
-        border-right: none;
-        border-bottom: 2px solid #ddd;
     }
-}
 
-.treatment-info img {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin: 0 auto 1rem; /* Centra la imagen y añade un margen inferior */
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem; /* Espacio entre los iconos */
-}
-
-.social-icons a {
-    font-size: 2rem; /* Ajusta el tamaño de los iconos */
-    color: #000; /* Color de los iconos */
-    transition: transform 0.3s ease; /* Transición suave para el efecto hover */
-}
-
-.social-icons a:hover {
-    transform: scale(1.2); /* Aumenta el tamaño de los iconos al pasar el ratón */
+    .content {
+        flex: 0 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
 }

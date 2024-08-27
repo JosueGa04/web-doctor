@@ -19,7 +19,7 @@
         <nav id="navbar">
             <a href="./main.html">Inicio</a>
             <a href="./servicios.html">Servicios</a>
-            <a href="#about">Historia</a>
+            <a href="./historia.html">Historia</a>
             <a href="#testimonials">Mis Pacientes</a>
             <a href="#contact">Contacto</a>
         </nav>
@@ -30,36 +30,46 @@
             <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
         </div>
     </header>
+    
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" id="closebtn">&times;</a>
+        <a href="./main.html">Inicio</a>
+        <a href="./servicios.html">Servicios</a>
+        <a href="./historia.html">Historia</a>
+        <a href="#testimonials">Mis Pacientes</a>
+        <a href="#contact">Contacto</a>
+    </div>
+    
+    <div class="separator"></div>
 
-    <h1>Seleccione un Tratamiento</h1>
+    <h1>🌟 Descubre los servicios estéticos del Dr. Oscar Ibarra 🌟</h1>
     <div class="container">
-        <select id="treatmentDropdown" onchange="displayTreatmentInfo()">
-            <option value="">Seleccione una opción</option>
-            <option value="blefaroplastia">Blefaroplastia</option>
-            <option value="armonizacionFacial">Armonización Facial</option>
-            <option value="bioestimulantes">Bioestimulantes Neocolágeno</option>
-            <option value="acidoHialuronico">Ácido Hialurónico</option>
-            <option value="rinomodelacion">Rinomodelación</option>
-            <option value="botox">Botox (retoque gratis)</option>
-            <option value="levantamientoGluteo">Levantamiento de Glúteo</option>
-            <option value="lipoenzimas">Lipoenzimas Primera y Segunda Generación</option>
-            <option value="pbserum">Pbserum</option>
-            <option value="dermapen">Dermapen DMAE</option>
-            <option value="hidropoclasia">Hidropoclasia</option>
-            <option value="peelingQuimico">Peeling Químico Superficial | Medio-Profundo</option>
-            <option value="despigmentanteIntimo">Despigmentante Íntimo</option>
-            <option value="prpDermapen">PRP, PRF, y CGF con Dermapen</option>
-            <option value="radiofrecuencia">Radiofrecuencia - 10 sesiones</option>
-            <option value="vacuum">Vacuum o Radiofrecuencia</option>
-            <option value="gimnasioPasivo">Gimnasio Pasivo</option>
-        </select>
+        <div class="sidebar-el">
+            <button onclick="displayTreatmentInfo('blefaroplastia')">✨Blefaroplastia</button>
+            <button onclick="displayTreatmentInfo('armonizacionFacial')">✨Armonización Facial</button>
+            <button onclick="displayTreatmentInfo('bioestimulantes')">✨Bioestimulantes Neocolágeno</button>
+            <button onclick="displayTreatmentInfo('acidoHialuronico')">✨Ácido Hialurónico</button>
+            <button onclick="displayTreatmentInfo('rinomodelacion')">✨Rinomodelación</button>
+            <button onclick="displayTreatmentInfo('botox')">✨Botox (retoque gratis)</button>
+            <button onclick="displayTreatmentInfo('levantamientoGluteo')">✨Levantamiento de Glúteo</button>
+            <button onclick="displayTreatmentInfo('lipoenzimas')">✨Lipoenzimas Primera y Segunda Generación</button>
+            <button onclick="displayTreatmentInfo('pbserum')">✨Pbserum</button>
+            <button onclick="displayTreatmentInfo('dermapen')">✨Dermapen DMAE</button>
+            <button onclick="displayTreatmentInfo('hidropoclasia')">✨Hidropoclasia</button>
+            <button onclick="displayTreatmentInfo('peelingQuimico')">✨Peeling Químico Superficial | Medio-Profundo</button>
+            <button onclick="displayTreatmentInfo('despigmentanteIntimo')">✨Despigmentante Íntimo</button>
+            <button onclick="displayTreatmentInfo('prpDermapen')">✨PRP, PRF, y CGF con Dermapen</button>
+            <button onclick="displayTreatmentInfo('radiofrecuencia')">✨Radiofrecuencia - 10 sesiones</button>
+            <button onclick="displayTreatmentInfo('vacuum')">✨Vacuum o Radiofrecuencia</button>
+            <button onclick="displayTreatmentInfo('gimnasioPasivo')">✨Gimnasio Pasivo</button>
+        </div>
 
         <div id="treatmentInfo" class="treatment-info">
             <!-- Aquí se mostrará la información dinámica -->
         </div>
     </div>
 
-    <script src="main.js"></script>
     <script src="servicios.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
