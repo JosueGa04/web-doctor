@@ -20,8 +20,8 @@
             <a href="./main.html">Inicio</a>
             <a href="./servicios.html">Servicios</a>
             <a href="./historia.html">Historia</a>
-            <a href="#testimonials">Mis Pacientes</a>
-            <a href="#contact">Contacto</a>
+            <a href="./testimonials.html">Mis Pacientes</a>
+            <a href="./contactanos.html">Contacto</a>
         </nav>
         <div class="contact-methods">
             <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
@@ -37,8 +37,8 @@
         <a href="./main.html">Inicio</a>
         <a href="./servicios.html">Servicios</a>
         <a href="./historia.html">Historia</a>
-        <a href="#testimonials">Mis Pacientes</a>
-        <a href="#contact">Contacto</a>
+        <a href="./testimonials.html">Mis Pacientes</a>
+        <a href="./contactanos.html">Contacto</a>
     </div>
     
     <div class="separator"></div>
@@ -65,11 +65,91 @@
             <button onclick="displayTreatmentInfo('gimnasioPasivo')">✨Gimnasio Pasivo</button>
         </div>
 
+        <div class="sidebar-el-mobile">
+            <select id="treatmentSelect" onchange="displayTreatmentInfo(this.value)">
+                <option value="" disabled selected>Selecciona un tratamiento</option>
+                <option value="blefaroplastia">✨Blefaroplastia</option>
+                <option value="armonizacionFacial">✨Armonización Facial</option>
+                <option value="bioestimulantes">✨Bioestimulantes Neocolágeno</option>
+                <option value="acidoHialuronico">✨Ácido Hialurónico</option>
+                <option value="rinomodelacion">✨Rinomodelación</option>
+                <option value="botox">✨Botox (retoque gratis)</option>
+                <option value="levantamientoGluteo">✨Levantamiento de Glúteo</option>
+                <option value="lipoenzimas">✨Lipoenzimas Primera y Segunda Generación</option>
+                <option value="pbserum">✨Pbserum</option>
+                <option value="dermapen">✨Dermapen DMAE</option>
+                <option value="hidropoclasia">✨Hidropoclasia</option>
+                <option value="peelingQuimico">✨Peeling Químico Superficial | Medio-Profundo</option>
+                <option value="despigmentanteIntimo">✨Despigmentante Íntimo</option>
+                <option value="prpDermapen">✨PRP, PRF, y CGF con Dermapen</option>
+                <option value="radiofrecuencia">✨Radiofrecuencia - 10 sesiones</option>
+                <option value="vacuum">✨Vacuum o Radiofrecuencia</option>
+                <option value="gimnasioPasivo">✨Gimnasio Pasivo</option>
+            </select>
+        </div>
+
         <div id="treatmentInfo" class="treatment-info">
-            <!-- Aquí se mostrará la información dinámica -->
+            <img src="./assets/IMG_3949.HEIC" alt="doctor"/>
+            <h2>✨Ya estás en buenas manos</h2>
+                <p>Aqui encontrarás mis servicios que se encuentran avalados por:</p>
+                <ul>
+                    <li>Clientes</li>
+                    <li>Experiencia</li>
+                    <li>Certificaciones</li>
+                    <li>Diplomas</li>
+                </ul>
+                <p>✨ Agenda una cita inicial para poder dar el siguiente paso.</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                </div>
         </div>
     </div>
 
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="" class="icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Inicio </a>
+            </li>
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Servicios </a>
+            </li>
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Historia </a>
+            </li>
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Mis Pacientes </a>
+            </li>
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Contactanos </a>
+            </li>
+        </ul>
+        <p class="text">Hecho por Josue Galindo y Aldo Melo | Todos los derechos reservados</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="servicios.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
