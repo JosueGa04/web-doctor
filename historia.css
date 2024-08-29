@@ -7,6 +7,7 @@
     --navbar-width: 80%;
     --background-white: rgb(247, 245, 235);
     --background-black: #333;
+    --navbar-color: #d8c3b3;
 }
 
 * {
@@ -19,11 +20,10 @@
 /* General styling */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    background-color: var(--navbar-color);
 }
 
 .logo img {
@@ -117,10 +117,10 @@ nav a {
 .heading h1 {
     font-size: 2.5rem;
     color: var(--primary-color);
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
-.heading p {
+.about-me p {
     font-size: 1.2rem;
     color: #333;
     margin-bottom: 40px;
@@ -129,8 +129,14 @@ nav a {
 .about-me {
     display: flex;
     align-items: center;
-    width: 85%;
+    width: 80%;
     margin: auto;
+    padding: 20px;
+}
+
+.read-more-btn {
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 .about-me img {
@@ -144,7 +150,7 @@ nav a {
 }
 
 .content h2 {
-    font-size: 24px;
+    font-size: 3rem;
     color: var(--primary-color);
     margin: 15px 0px;
 }

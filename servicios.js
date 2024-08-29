@@ -28,8 +28,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Mejora la apariencia de los ojos, reduce signos de envejecimiento, y da una mirada más fresca y descansada.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/1.jpg"; // Reemplaza con la URL de la imagen
@@ -47,8 +47,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Mejora la armonía facial, resalta los rasgos naturales, y brinda una apariencia más atractiva y juvenil.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/2.jpg"; // Reemplaza con la URL de la imagen
@@ -66,8 +66,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Mejora la calidad de la piel, estimula la producción de colágeno, y reduce signos de envejecimiento para un aspecto más juvenil.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/3.jpg"; // Reemplaza con la URL de la imagen
@@ -85,8 +85,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Aumenta el volumen facial, hidrata la piel, y reduce signos de envejecimiento para un aspecto más juvenil.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/4.jpg"; // Reemplaza con la URL de la imagen
@@ -104,8 +104,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Corrige imperfecciones nasales, mejora la armonía facial, y resalta la belleza natural de la nariz.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/5.jpg"; // Reemplaza con la URL de la imagen
@@ -123,8 +123,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Reduce arrugas y líneas de expresión, rejuvenece la piel, y brinda una apariencia más fresca y juvenil.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/6.jpg"; // Reemplaza con la URL de la imagen
@@ -141,8 +141,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Levanta y tonifica los glúteos, mejora la forma y proyección de los glúteos, y brinda una apariencia más atractiva y juvenil.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/7.jpg"; // Reemplaza con la URL de la imagen
@@ -160,8 +160,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Reduce grasa localizada, moldea la figura, y mejora la apariencia corporal.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/8.jpg"; // Reemplaza con la URL de la imagen
@@ -179,8 +179,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Mejora la calidad de la piel, hidrata y revitaliza, y reduce signos de envejecimiento para un aspecto más juvenil.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/9.jpg"; // Reemplaza con la URL de la imagen
@@ -198,8 +198,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Estimula la regeneración de la piel, mejora la textura y luminosidad, y reduce signos de envejecimiento para un aspecto más juvenil.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/10.jpg"; // Reemplaza con la URL de la imagen
@@ -217,8 +217,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Reduce grasa localizada, moldea la figura, y mejora la apariencia corporal.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/11.jpg"; // Reemplaza con la URL de la imagen
@@ -236,8 +236,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Renueva la piel, mejora la textura y luminosidad, y reduce signos de envejecimiento para un aspecto más juvenil.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/12.jpg"; // Reemplaza con la URL de la imagen
@@ -255,8 +255,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Mejora la apariencia de la piel, reduce manchas y pigmentación, y brinda una piel más uniforme y estética.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/13.jpg"; // Reemplaza con la URL de la imagen
@@ -274,8 +274,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Estimula la regeneración de la piel, mejora la textura y luminosidad, y reduce signos de envejecimiento para un aspecto más juvenil.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/14.jpg"; // Reemplaza con la URL de la imagen
@@ -293,8 +293,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Reafirma y tonifica la piel, mejora la firmeza y elasticidad, y reduce signos de envejecimiento para un aspecto más juvenil.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/15.jpg"; // Reemplaza con la URL de la imagen
@@ -312,8 +312,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Reduce celulitis, remodela la figura corporal, y mejora la apariencia de la piel para un aspecto más estético.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/16.jpg"; // Reemplaza con la URL de la imagen
@@ -331,8 +331,8 @@ function displayTreatmentInfo(treatment) {
                 </ul>
                 <p>✨ Beneficios: Tonifica y fortalece los músculos, reduce grasa corporal, y mejora la apariencia corporal para un aspecto más estético.</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
+                    <a href="https://wa.link/ai2gmt" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                    <a href="https://m.me/dr0scaribarra" target="_blank"><i class="fa-brands fa-facebook-messenger fa-xl"></i></a>
                 </div>
             `;
             imageUrl = "./assets/Foto/Servicios Flyers no cargados/19.jpg"; // Reemplaza con la URL de la imagen

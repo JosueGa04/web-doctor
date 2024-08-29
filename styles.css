@@ -8,6 +8,7 @@
     --navbar-width: 80%;
     --background-white: rgb(247, 245, 235);
     --background-black: #333;
+    --navbar-color: #d8c3b3;
 }
 
 * {
@@ -20,10 +21,10 @@
 /* General styling */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 20px;
-    background-color: var(--background-black);
+    background-color: var(--navbar-color);
     color: white;
 }
 
@@ -172,12 +173,15 @@ nav a {
     #services .card-img-top {
         height: 300px; /* Ajusta según sea necesario */
     }
+    #services .col-md-4 {
+        margin-bottom: 20px;
+    }
 
 }
 
 #services .card {
-    border: none; /* Opcional: ajustar el estilo de las tarjetas */
     background-color: var(--primary-color);
+    color: #333;
 }
 
 #services .card-body {
@@ -296,15 +300,9 @@ nav a {
     font-size: 1.2rem;
 }
 
-#contact-form {
-    width: 50%;
-    margin: 0 auto;
-}
-
-#contact-form input, #contact-form textarea {
-    width: 100%;
-    margin: 1rem 0;
-    padding: 1rem;
+#contact input, #contact textarea {
+    width: 70%;
+    padding: 0.7rem;
     font-size: 1rem;
 }
 
@@ -319,6 +317,27 @@ nav a {
     left: 0;
     top: 0;
     position: absolute;
+}
+
+/* Estilos generales para la sección de contacto */
+#contact .container {
+    margin-bottom: 20px;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    #contact .container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #contact form {
+        width: 100%;
+    }
+
+    #contact .google-maps{
+        width: 100%;
+    }
 }
 
 .footer {
